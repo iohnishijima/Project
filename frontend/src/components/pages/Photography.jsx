@@ -1,11 +1,13 @@
 import React from 'react'
 import Header from '../Templates/Header'
 
-
-export default function Home() {
+const Photography = () => {
   return (
     <>
-        <Header title="Home" />
+        <Header title="Photography" />
+
     </>
   )
 }
+
+export default Photography

@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../Templates/Header'
 
-
-export default function Home() {
+const Projects = () => {
   return (
     <>
-        <Header title="Home" />
+        <Header title="Projects" />
     </>
   )
 }
+
+export default Projects
