@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Photography from './components/pages/Photography';
 import Projects from './components/pages/Projects';
-import NotFound from './components/pages/NorFound';
+import NotFound from './components/pages/NotFound';
 
 function App() {
   return (
