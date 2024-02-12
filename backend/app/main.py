@@ -1,5 +1,6 @@
-from fastapi import FastAPI, HTTPException, Form
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from starlette.responses import JSONResponse
 from fastapi_mail import FastMail, MessageSchema, ConnectionConfig, MessageType
 from pydantic import EmailStr, BaseModel
@@ -12,15 +13,16 @@ class ContactForm(BaseModel):
     message: str
 
 app = FastAPI()
+app.mount("/", StaticFiles(directory="/home/ec2-user/web/frontend/build/", html=True), name="static")
 
 recip = os.getenv("MAIL_RECIPIENTS")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["https://www.ioh-nishijima.com"],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["*"], 
+    allow_headers=["*"], 
 )
 
 class EmailSchema(BaseModel):

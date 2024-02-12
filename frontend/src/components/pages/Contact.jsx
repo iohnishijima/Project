@@ -18,7 +18,8 @@ const Contact = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://127.0.0.1:8000/send-email/', {
+      // const response = await fetch('http://127.0.0.1:8000/send-email/', {
+        const response = await fetch(`https://www.ioh-nishijima.com/send-email/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -43,7 +44,7 @@ const Contact = () => {
         <Card sx={{ minWidth: 275 , mt:3}}>
           <CardContent>
             <Typography sx={{mb: 0.5}} variant="h5" component="div" alignItems="center">
-              Work Experience
+              Information
             </Typography>
             <Box display="flex" alignItems="center" sx={{ mb: 1.5 }} color="text.secondary">
               <Email /><Link sx={{ml: 0.5}} href="mailto:nishijima.io.hm@tut.jp">email</Link>

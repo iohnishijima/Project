@@ -6,6 +6,9 @@ import Contact from './components/pages/Contact';
 import Photography from './components/pages/Photography';
 import Projects from './components/pages/Projects';
 import NotFound from './components/pages/NotFound';
+import FadeInComponent from './components/pages/Fadein';
+import CardComponent from './components/pages/Card';
+import DraggableComponent from './components/pages/DraggableComponent';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/photography" element={<Photography/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/fadein" element={<FadeInComponent/>}/>
+          <Route path="/card" element={<CardComponent/>}/>
+          <Route path="/drag" element={<DraggableComponent/>}/>
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </div>

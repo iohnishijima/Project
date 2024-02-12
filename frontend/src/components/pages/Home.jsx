@@ -1,10 +1,7 @@
 import React from 'react'
 import Layout from '../providers/Layout';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot } from '@mui/lab';
-import {Typography, Card, CardContent, useTheme, useMediaQuery, Link, Grid, CardMedia, Avatar, ListItemText, CardHeader } from '@mui/material';
-import { red } from '@mui/material/colors';
-import IconButton, { IconButtonProps } from '@mui/material/IconButton';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import {Typography, Card, CardContent, useTheme, useMediaQuery, Link, Grid, CardMedia, CardHeader } from '@mui/material';
 
 const sortSkillsByExperience = (skills) => {
   return skills.sort((a, b) => {
