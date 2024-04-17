@@ -1,74 +1,24 @@
-# MyWebPortfolio
+# Welcome to My Web Portfolio Repository
+## Introduction
+Hello and thank you for visiting the repository of my web portfolio. This project is a personal showcase, designed to demonstrate my skills and projects in web development. The portfolio is crafted with a blend of modern technologies and frameworks, emphasizing my ability to create engaging, responsive, and high-performing web applications.
 
-## frontend 
-### React
-# Getting Started with Create React App
+## Technology Stack
+### Frontend
+The frontend of the portfolio is built using JavaScript, with a heavy reliance on MUI (Material-UI) for the user interface components. MUI has been chosen for its versatility, ease of use, and the professional look it offers. It allows for the creation of a cohesive and visually appealing design that adapts well to different screen sizes, enhancing the user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Backend
+On the backend, the application leverages Python and FastAPI. FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. 
 
-## Available Scripts
+## Features
+### Responsive Design: The website is fully responsive, providing a seamless experience on devices of all sizes.
 
-In the project directory, you can run:
+## Deployment
+The web portfolio is deployed and accessible at the following URL: https://www.ioh-nishijima.com/. I encourage you to visit and explore the projects and technologies I've worked with.
 
-### `npm start`
+## How to Use
+Feel free to explore the repository to understand the structure and implementation details of the portfolio. If you're interested in using this as a template for your own portfolio, please ensure to credit the original design and code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Feedback
+I am always looking for feedback and suggestions to improve my portfolio. If you have any comments or would like to discuss any of the projects featured in the portfolio, please do not hesitate to reach out.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for taking the time to explore my web portfolio repository. Your support and feedback are greatly appreciated
