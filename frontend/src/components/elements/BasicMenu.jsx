@@ -1,6 +1,6 @@
-import * as React from 'react';
+import * as React from "react";
 import { useNavigate } from "react-router-dom";
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from "@mui/icons-material/Menu";
 import { IconButton, Menu, MenuItem, Toolbar } from "@mui/material";
 
 export default function PositionedMenu() {
@@ -47,9 +47,9 @@ export default function PositionedMenu() {
           aria-label="menu"
           sx={{ mr: 2 }}
           id="demo-positioned-button"
-          aria-controls={open ? 'demo-positioned-menu' : undefined}
+          aria-controls={open ? "demo-positioned-menu" : undefined}
           aria-haspopup="true"
-          aria-expanded={open ? 'true' : undefined}
+          aria-expanded={open ? "true" : undefined}
           onClick={handleClick}
         >
           <MenuIcon />
@@ -61,12 +61,12 @@ export default function PositionedMenu() {
           open={open}
           onClose={handleClose}
           anchorOrigin={{
-            vertical: 'top',
-            horizontal: 'left',
+            vertical: "top",
+            horizontal: "left",
           }}
           transformOrigin={{
-            vertical: 'top',
-            horizontal: 'left',
+            vertical: "top",
+            horizontal: "left",
           }}
         >
           <MenuItem onClick={handleClickHome}>Home</MenuItem>
